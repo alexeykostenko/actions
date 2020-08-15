@@ -36,4 +36,4 @@ jobs:
       run: ls -la
 
     - name: Print secret
-      run: echo ${{ ACTIONS_MY_SECRET }}
+      run: echo ${{ secrets.ACTIONS_MY_SECRET }}
