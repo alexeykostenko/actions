@@ -39,4 +39,4 @@ jobs:
       run: echo ${{ secrets.ACTIONS_MY_SECRET }}
 
     - name: Print secret 2
-      run: echo "$ACTIONS_MY_SECRET"
+      run: echo ${{ secrets.NEW_SECRET }}
