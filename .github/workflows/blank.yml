@@ -37,3 +37,6 @@ jobs:
 
     - name: Print secret
       run: echo ${{ secrets.ACTIONS_MY_SECRET }}
+
+    - name: Print secret 2
+      run: echo "$ACTIONS_MY_SECRET"
