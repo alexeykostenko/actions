@@ -34,3 +34,6 @@ jobs:
         
     - name: Listing files
       run: ls -la
+
+    - name: Print secret
+      run: echo ${{ ACTIONS_MY_SECRET }}
